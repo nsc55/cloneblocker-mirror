@@ -1,6 +1,7 @@
 # Published artifacts
 
-Machine-written. `blocklist.json` and `backend.json` are signed; the extension
-verifies them against a key compiled into it, so this mirror cannot be used to
-change what anybody blocks. Do not edit by hand -- the signature would stop
-verifying and every installation would ignore the file.
+Machine-written. `blocklist.json`, `backend.json`, and
+`threadsmod-update.json` are signed; clients verify them against a key compiled
+into them, so this mirror cannot change what anybody blocks or installs. Do not
+edit by hand -- the signature would stop verifying and clients would ignore the
+file.
